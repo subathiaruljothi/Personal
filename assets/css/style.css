@@ -1,0 +1,283 @@
+body{
+    background-color: #000000;
+    background: url(../images/demo-bg.jpg);
+}
+/* header start */
+header{
+    font-family: "Merriweather", serif;
+    padding: 10px 0px;
+    /* background-color: color-mix(in srgb, #000000, transparent 20%); */
+}
+header .navbar-brand{
+    color: #ffffff;
+    font-weight: bold;
+}
+header .navbar-brand:hover{
+    color: #ffffff;
+}
+header .navbar-brand h1{
+    margin: 5px 20px 0px 0px;
+    font-size: 30px;
+}
+header .collapse .nav-link{
+    color: #ffffff;
+    text-align: end;
+    margin: 0px 27px 0px 0px;
+    font-size: 15px;
+    &&:hover{
+        color: #18CB6A;
+    }
+}
+header .navbar-collapse{
+    flex-grow: unset;
+}
+/* header end */
+.main{
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+}
+.main .image img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px 0px 130px 0px;
+}
+.main .box{
+    position: relative;
+    padding: 100px 0px;
+}
+.main .box h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 100px 0px 0px 0px;
+}
+.main .box p{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0px 20px 4px;
+}
+.main .box span{
+    border-bottom: 2px solid #18CB6A;
+}
+.main .box i{
+    color:#ffffff;
+    background-color: #272727;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border: 2px solid #272727;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 1px;
+    cursor: pointer;
+    transition: background-color 0.7s,border 0.7s;
+    &&:hover{
+        background-color: #18CB6A;
+        border: 2px solid #18CB6A;
+    }
+}
+/* main end */
+/* footer start */
+footer{
+    font-family: "Merriweather", serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    padding: 30px 0px;
+    text-align: center;
+}
+/* footer .text{
+    padding: 80px 0px 0px 0px;
+} */
+footer .text h1{
+    margin: 0px 0px 17px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer .text p{
+    font-size: 13px;
+    font-weight: 300;
+    margin: 21px 0px 25px 0px;
+}
+footer .text i{
+    color:#000000;
+    background-color: #18CB6A;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border: 2px solid #18CB6A;
+    width: 36px;
+    height: 36px;
+    font-size: 15px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 4px 9px 1px;
+    cursor: pointer;
+    transition: background-color 0.3s,border 0.3s;
+    &&:hover{
+        background-color: rgb(25 128 85);
+        border: 2px solid rgb(25 128 85);
+    }
+}
+footer .under p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 21px 0px 0px 0px;
+}
+footer .under p span{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px 5px;
+}
+footer .under .p1{
+    margin: 5px 0px 0px 0px;
+    font-size: 11px;
+}
+footer .under .p1 span{
+    color: #18CB6A;
+    font-size: 10px;
+    padding: unset;
+}
+/* footer end */
+/* arrow-fit start */
+.arrow a{
+    color: #000000;
+    &&:hover{
+        color: #000000;
+    }
+}
+.arrow{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #18CB6A;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border: 2px solid #18CB6A;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 4px 9px 1px;
+    cursor: pointer;
+    transition: background-color 0.3s,border 0.3s;
+    &&:hover{
+        background-color: #16ab5b;
+        border: 2px solid #16ab5b;
+    }
+}
+/* arrow-fit end */
+
+/* service start */
+.service{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+}
+.service .title{
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+.service .title h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+.service .title p{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 3px 0px 30px 0px;
+    padding: 0px 120px;
+    line-height: 27px;
+}
+.service nav{
+    background-color: #191919;
+    padding: 20px 0px 10px 0px;
+}
+.service .tab a{
+    color: #18CB6A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.7s;
+    &&:hover{
+        color: rgb(25 128 85);
+    }
+}
+.service .tab li{
+    color: #ffffff;
+    font-weight: bold;
+}
+.service .body{
+    text-align: center;
+    margin: 60px 38px 0px 0px;
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    width: 30%;
+    padding: 41px 16px 82px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s,border 0.3s;
+}
+.service .body:hover{
+    background-color: #18d26e;
+    border: 1px solid #18d26e;
+}
+.service .body .icon{
+    margin: 30px 0px 10px 0px;
+    background-color: #18d26e;
+    color: #000000;
+    width: 21%;
+    height: 27%;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    box-shadow: -11px -8px 0px #1a3f2b;
+    transition: background-color 0.3s,box-shadow 0.3s;
+}
+.service .body:hover .icon{
+    background-color: #000000;
+    box-shadow: -11px -8px 0px #11924d;
+}
+.service .body .icon i{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.service .body:hover i{
+    color: #18CB6A;
+}
+.service .body .text h3{
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 18px 0px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.service .body:hover h3{
+    color: #000000;
+}
+.service .body .text p{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0px 0px;
+    line-height: 25px;
+    transition: color 0.3s;
+}
+.service .body:hover p{
+    color: #000000;
+}
+/* service end */
