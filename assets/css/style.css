@@ -121,8 +121,8 @@ footer .text i{
     cursor: pointer;
     transition: background-color 0.3s,border 0.3s;
     &&:hover{
-        background-color: rgb(25 128 85);
-        border: 2px solid rgb(25 128 85);
+        background-color: #16ab5b;
+        border: 2px solid #16ab5b;
     }
 }
 footer .under p{
@@ -175,6 +175,198 @@ footer .under .p1 span{
     }
 }
 /* arrow-fit end */
+
+/* resume start */
+.resume{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+}
+.resume .title{
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+.resume .title h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume .title p{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 3px 0px 30px 0px;
+    padding: 0px 120px;
+    line-height: 27px;
+}
+.resume nav{
+    background-color: #191919;
+    padding: 20px 0px 10px 0px;
+}
+.resume .tab a{
+    color: #18CB6A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.7s;
+    &&:hover{
+        color: rgb(25 128 85);
+    }
+}
+.resume .tab li{
+    color: #ffffff;
+    font-weight: bold;
+}
+.resume .bio{
+    color: #ffffff;
+    padding: 40px 0px;
+}
+.resume .bio h3{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0px 30px 0px;
+}
+/* summary */
+.resume .sumary{
+    padding: 0px 0px 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #18CB6A;
+    position: relative;
+}
+.resume .sumary:after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    left: -9px;
+    top: 0;
+    background-color: #000000;
+    border: 2px solid #18CB6A;
+}
+.resume h4{
+    text-transform: uppercase;
+    color: #c8c8c8;
+    font-size:  18px;
+    font-weight: 600;;
+}
+.resume p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.resume ul{
+    margin: 0 0 0 15px;
+    padding: 0 0 0 0;
+}
+.resume .sumary li{ 
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.resume .education h3{
+    margin: 30px 0px 30px 0px;
+}
+.resume .master{
+    padding: 0px 0px 18px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #18CB6A;
+    position: relative;
+}
+.resume .master:after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    left: -9px;
+    top: 0;
+    background-color: #000000;
+    border: 2px solid #18CB6A;
+}
+.resume .design{
+    padding: 0px 0px 0px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #18CB6A;
+    position: relative;
+}
+.resume .design:after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    left: -9px;
+    top: 0;
+    background-color: #000000;
+    border: 2px solid #18CB6A;
+}
+.resume span{
+    font-style: italic;
+}
+.resume .p1 span{
+    margin: 0px 0px 0px 16px;
+}
+.resume .education h4{
+    color: #c8c8c8;
+    font-size:  18px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.resume .education p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+/* col2 */
+.resume  ul{
+    margin: 0 0 0 15px;
+    padding: 0 0 0 0;
+}  
+.resume ul li{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.resume .first{
+    padding: 0px 0px 18px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #18CB6A;
+    position: relative;
+}
+.resume .first:after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    left: -9px;
+    top: 0;
+    background-color: #000000;
+    border: 2px solid #18CB6A;
+}
+.resume .second{
+    padding: 0px 0px 18px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #18CB6A;
+    position: relative;
+}
+.resume .second:after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    left: -9px;
+    top: 0;
+    background-color: #000000;
+    border: 2px solid #18CB6A;
+}
+/* resume end */
 
 /* service start */
 .service{
