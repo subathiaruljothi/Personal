@@ -48,6 +48,15 @@ header .navbar-collapse{
     position: relative;
     padding: 100px 0px;
 }
+/* .main .hero{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 .main .box h2{
     color: #ffffff;
     font-size: 50px;
@@ -175,23 +184,17 @@ footer .under .p1 span{
     }
 }
 /* arrow-fit end */
-
-/* resume start */
-.resume{
-    padding: 70px 0px 40px 0px;
-    font-family: "Merriweather", serif;
-    background-color: #000000;
-}
-.resume .title{
+/* common head */
+.title{
     text-align: center;
     padding: 80px 0px 80px 0px;
 }
-.resume .title h2{
+.title h2{
     color: #ffffff;
     font-size: 35px;
     font-weight: bold;
 }
-.resume .title p{
+.title p{
     color: #ffffff;
     font-size: 13px;
     font-weight: 200;
@@ -199,11 +202,11 @@ footer .under .p1 span{
     padding: 0px 120px;
     line-height: 27px;
 }
-.resume nav{
+.tab nav{
     background-color: #191919;
     padding: 20px 0px 10px 0px;
 }
-.resume .tab a{
+.tab a{
     color: #18CB6A;
     text-decoration: none;
     font-weight: bold;
@@ -212,9 +215,15 @@ footer .under .p1 span{
         color: rgb(25 128 85);
     }
 }
-.resume .tab li{
+.tab li{
     color: #ffffff;
     font-weight: bold;
+}
+/* resume start */
+.resume{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
 }
 .resume .bio{
     color: #ffffff;
@@ -374,40 +383,6 @@ footer .under .p1 span{
     font-family: "Merriweather", serif;
     background-color: #000000;
 }
-.service .title{
-    text-align: center;
-    padding: 80px 0px 80px 0px;
-}
-.service .title h2{
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: bold;
-}
-.service .title p{
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 200;
-    margin: 3px 0px 30px 0px;
-    padding: 0px 120px;
-    line-height: 27px;
-}
-.service nav{
-    background-color: #191919;
-    padding: 20px 0px 10px 0px;
-}
-.service .tab a{
-    color: #18CB6A;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.7s;
-    &&:hover{
-        color: rgb(25 128 85);
-    }
-}
-.service .tab li{
-    color: #ffffff;
-    font-weight: bold;
-}
 .service .body{
     text-align: center;
     margin: 60px 38px 0px 0px;
@@ -449,6 +424,18 @@ footer .under .p1 span{
 .service .body:hover i{
     color: #18CB6A;
 }
+.service .body .text a{
+    text-decoration: none;
+}
+.link::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
 .service .body .text h3{
     font-size: 19px;
     color: #ffffff;
@@ -472,4 +459,66 @@ footer .under .p1 span{
 .service .body:hover p{
     color: #000000;
 }
+/* service-details start */
+.details{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.details .box{
+    margin: 33px 0px 0px 0px;
+}
+.details .list{
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    padding: 12px 0px 0px 24px;
+}
+.details .list a{
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+    padding: 8px 0 8px 15px;
+    border-left: 3px solid #5d5d5d;
+    margin: 20px 0;
+    color: #fafafa;
+    transition: border-left 0.3s;
+    &&:hover{
+        border-left: 3px solid #18CB6A;
+    }
+}
+.details .list a.active {
+    color: #ffffff;
+    font-weight: 700;
+    border-color: #18d26e;
+}
+.details .ser-image img{
+    width: 100%;
+    height: 100%;
+}
+.details .box h4{
+    margin: 22px 0px 12px 0px;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 33px;
+}
+.details .box p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.details .box ul{
+    list-style-type: none;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.details .box ul li{
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.details .box i{
+    color: #18CB6A;
+    margin: 0px 10px 0px 0px;
+}
+/* service-details end */
 /* service end */
