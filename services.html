@@ -160,7 +160,7 @@
 </footer>
 <!-- footer end -->
 <!--arrow-fit start-->
-<div class="arrow">
+<div class="arrow" data-aos="fade-up" data-aos-duration="4000">
   <a href="#"><i class="bi bi-arrow-up-short"></i></a>
 </div>
 <!--arrow-fit end-->
@@ -175,6 +175,14 @@
     }
     else{
       document.querySelector("header").style.backgroundColor="unset";
+    }
+  })
+  window.addEventListener('scroll',()=>{
+    if(window.pageYOffset>=120){
+      document.querySelector(".arrow").style.opacity="0.9";
+    }
+    else{
+      document.querySelector(".arrow").style.opacity="0";
     }
   })
 </script>
