@@ -237,6 +237,9 @@ footer .under .p1 span{
     width: 100%;
     height: 100%;
 }
+.about .image img:hover{
+    
+}
 .about .bio h3{
     font-size: 22px;
     margin: 2px 0px 10px 0px;
@@ -737,3 +740,160 @@ footer .under .p1 span{
 }
 /* service-details end */
 /* service end */
+/* port start */
+.port{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+/* tab */
+.tab1{
+    overflow: hidden;
+    text-align: center;
+}
+.tab1 button{
+    background-color: #000000;
+    color: #ffffff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab1 button:hover{
+    color: #18CB6A;
+}
+.tab1 button.active{
+    color: #18CB6A;
+}  
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/* image overlay */
+.container{
+    position: relative;
+    width: 50%;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .image{
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.middle .text{
+    backgound-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/* port end */
+
+/* contact start */
+.contact{
+    padding: 70px 0px 40px 0px;
+    font-family: "Merriweather", serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.cont{
+    padding: 80px 0px 80px 0px;
+}
+.cont .icon{
+    color: #000000;
+    background-color:#18d26e;
+    border-radius: 28px;
+    height:55px ;
+    width: 55px;
+    border: 1px solid#18d26e;
+    box-shadow: 0px 2px 25px rgba(0,0,0,0.1);
+    margin: 5px 5px 60px 0px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    float: left;
+    font-size: 23px;
+    
+}
+.cont .text{
+    color: #ffffff;
+    font-size: 15px;
+}
+.cont .text h3{
+    font-size: 20px;
+}
+.cont .social a{
+    color: #757575;
+    font-size: 25px;
+}
+.cont .social a:hover{
+    color: #16ab5b;
+}
+.cont .box .first{
+    width: 100%;
+    padding: 10px 0px 10px 8px;
+    background-color: #000000;
+    border:1px solid #1a1a1a;
+    color: #ffffff;
+}
+.cont .box .first:focus{
+    border: 1px solid #16ab5b;
+    outline: none;
+}
+.cont .sub .second{
+    width: 100%;
+    background-color: #000000;
+    border:1px solid #1a1a1a;
+    margin: 38px 0px 30px 0px;
+    padding: 10px 0px 10px 8px;
+    color: #ffffff;
+}
+.cont .sub .second:focus{
+    border: 1px solid #16ab5b;
+    outline: none;
+}
+.cont .message .third{
+    background-color: #000000;
+    border:1px solid #1a1a1a;
+    padding: 8px 0px 0px 10px;
+    color: #ffffff;
+}
+.cont .message .third:focus{
+    border: 1px solid #16ab5b;
+    outline: none;
+}
+.cont .btn-cont{
+    text-align: center;
+    padding: 30px 0px 40px 0px;
+}
+.cont .btn-cont button{
+    background-color: #16ab5b;
+    border: 1px solid #16ab5b;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+/* cont end */

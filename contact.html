@@ -78,6 +78,77 @@
       </div>
     </nav>
   </div>
+<!-- cont start -->
+<div class="cont">
+  <div class="container">
+    <div class="row">
+          <div class="col-md-6">
+              <div class="icon">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+              </div>
+              <div class="text">
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="icon">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+              </div>
+              <div class="text">
+                  <h3>Call Me</h3>
+                  <p>+1 5589 55488 55</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="icon">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+              </div>
+              <div class="text">
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="icon">
+                  <i class="bi bi-share flex-shrink-0"></i>
+              </div>
+              <div class="text">
+                  <h3>Social Profiles</h3>
+                  <div class="social">
+                      <a href="#"><i class="bi bi-twitter-x"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-skype"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <form action="">
+        <div class="row ">
+          <div class="col-6 box">
+            <input type="text" placeholder="Your Name" class="first" required>
+          </div>
+          <div class="col-6 box">
+            <input type="email" placeholder="Your Email" class="first" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 sub">
+            <input type="text" placeholder="Subject" class="second" required> 
+          </div>
+        </div>
+        <div class="row message">
+          <textarea name="" id="" rows="5" width="100%" placeholder="Message" class="third" required></textarea>
+        </div>
+        <div class="btn-cont">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+  </div>
+</div>
+<!-- cont end -->
 </div>
 <!-- contact end -->
 <!-- footer start -->
@@ -115,4 +186,22 @@
       document.querySelector("header").style.backgroundColor="unset";
     }
   })
+  window.addEventListener('scroll',()=>{
+    if(window.pageYOffset>=120){
+      document.querySelector(".arrow").style.opacity="0.9";
+    }
+    else{
+      document.querySelector(".arrow").style.opacity="0";
+    }
+  })
 </script>
+
+
+
+
+
+
+
+
+
+
