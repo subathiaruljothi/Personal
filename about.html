@@ -26,38 +26,66 @@
 </script>
 <!-- header start -->
 <header class="fixed-top">
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <a class="navbar-brand" href="#"><h1>Personal</h1></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg main-head">
+          <div class="container">
+            <a class="navbar-brand" href="#"><h1>Personal</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg dup-head">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1>Personal</h1></a>
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i></button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                  <li>
+                    <a class="active" href="about.html">About</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
+                  <li>
+                    <a href="resume.html">Resume</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                  <li>
+                    <a href="services.html">Services</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                  <li>
+                    <a href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-        </nav>
-    </div>
+          </div>
+        </div>
+    </nav>
+  </div>
 </header>
 <!-- header end -->
 <!-- about start -->
@@ -82,16 +110,16 @@
 <div class="container">
   <div class="row bio" data-aos="fade-up"
   data-aos-duration="3000">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
       <div class="image">
         <img src="assets/images/about-img.jpg" alt="">
       </div>
     </div>
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
       <h3>UI/UX Designer & Web Developer.</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
           <ul>
             <li><i class="bi bi-chevron-right"></i><strong>Birthday:</strong>1 May 1995</li>
             <li><i class="bi bi-chevron-right"></i><strong>Website:</strong>www.example.com</li>
@@ -99,7 +127,7 @@
             <li><i class="bi bi-chevron-right"></i><strong>City:</strong>New York, USA</li>
           </ul>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
           <ul>
             <li><i class="bi bi-chevron-right"></i><strong>Age:</strong>30</li>
             <li><i class="bi bi-chevron-right"></i><strong>Degree:</strong>Master</li>
@@ -118,7 +146,7 @@
 data-aos-duration="3000">
   <div class="container">
     <div class="row">
-      <div class="col-3 text">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text">
         <div class="body">
           <i class="bi bi-emoji-smile"></i>
         </div>
@@ -127,7 +155,7 @@ data-aos-duration="3000">
           <p>Happy Clients</p>
         </div>
       </div>
-      <div class="col-3 text">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text">
         <div class="body">
           <i class="bi bi-journal-richtext"></i>
         </div>
@@ -136,7 +164,7 @@ data-aos-duration="3000">
           <p>Projects</p>
         </div>
       </div>
-      <div class="col-3 text">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text">
         <div class="body">
           <i class="bi bi-headset"></i>
         </div>
@@ -145,7 +173,7 @@ data-aos-duration="3000">
           <p>Hours Of Support</p>
         </div>
       </div>
-      <div class="col-3 text">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text">
         <div class="body">
           <i class="bi bi-people"></i>
         </div>
@@ -167,7 +195,7 @@ data-aos-duration="3000">
       <h3>My Skills</h3>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <div class="code">
           <h6>HTML<span>100%</span></h6>
         </div>
@@ -187,7 +215,7 @@ data-aos-duration="3000">
           <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <div class="code">
           <h6>PHP<span>80%</span></h6>
         </div>
@@ -219,84 +247,84 @@ data-aos-duration="3000">
       <h3>I'm interested in</h3>
     </div>
     <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="100">
         <div class="icon-btn">
           <i class="bi bi-eye" style="color: #ffbb2c;"></i>
           <h3><a href="" class="link">Lorem Ipsum</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="200">
         <div class="icon-btn">
           <i class="bi bi-infinity" style="color: #5578ff;"></i>
         <h3><a href="" class="link">Dolor Sitema</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="300">
         <div class="icon-btn">
           <i class="bi bi-mortarboard" style="color: #e80368;"></i>
           <h3><a href="" class="link">Sed perspiciatis</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="400">
         <div class="icon-btn">
           <i class="bi bi-nut" style="color: #e361ff;"></i>
           <h3><a href="" class="link">Magni Dolores</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="500">
         <div class="icon-btn">
           <i class="bi bi-shuffle" style="color: #47aeff;"></i>
           <h3><a href="" class="link">Nemo Enim</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="600">
         <div class="icon-btn">
           <i class="bi bi-star" style="color: #ffa76e;"></i>
           <h3><a href="" class="link">Eiusmod Tempor</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="700">
         <div class="icon-btn">
           <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
           <h3><a href="" class="link">Midela Teren</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="800">
         <div class="icon-btn">
           <i class="bi bi-camera-video" style="color: #4233ff;"></i>
           <h3><a href="" class="link">Pira Neve</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="900">
         <div class="icon-btn">
           <i class="bi bi-command" style="color: #b2904f;"></i>
           <h3><a href="" class="link">Dirada Pack</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="1000">
         <div class="icon-btn">
           <i class="bi bi-dribbble" style="color: #b20969;"></i>
           <h3><a href="" class="ink">Moton Ideal</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="1100">
         <div class="icon-btn">
           <i class="bi bi-activity" style="color: #ff5828;"></i>
           <h3><a href="" class="link">Verdo Park</a></h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-aos="fade-up"
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up"
       data-aos-duration="1200">
         <div class="icon-btn">
           <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
