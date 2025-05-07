@@ -988,4 +988,8 @@ footer .under .p1 span{
     .cont .message .third {
         width: 96%;
     }
+    .service .body{
+        width: 100%;
+        margin: 60px 0px 10px 0px;
+    }
 }
